@@ -17,6 +17,7 @@ public class ForEachTest {
         list.add("Hello");
         list.add("Tom");
         list.add("Hello");
+        list.add("Neal");
         list.forEach(System.out :: println);
 
     }
