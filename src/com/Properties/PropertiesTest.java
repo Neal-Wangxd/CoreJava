@@ -24,5 +24,7 @@ public class PropertiesTest {
         System.out.println(properties.getProperty("BJ"));
         System.out.println(properties.getProperty("GZ"));
         System.out.println(properties.getProperty("GZ","no data"));
+        System.out.println(properties.getProperty("BJ","no data"));
+        System.out.println(new java.util.Date().getTime());
     }
 }
