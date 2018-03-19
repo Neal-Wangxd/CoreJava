@@ -7,7 +7,11 @@ package com.Static;
  * @auther wxd
  * @create 2018/3/19
  * @desc 测试关键字static的一些特点
- *
+ * 1.static 声明的属性与普通属性最大的区别在于保存的内存区域不同
+ * 2.利用static定义的属性是可以由类名直接调用的
+ * 3.所有非static属性必须产生实例化对象后才可以访问,但是static属性不受实例对象的限制，
+ *   也就是说，在没有实例化对象产生的情况下，依然可以使用static
+ * 4.如果需要描述出共享信息的时候，使用static
  *
  */
 public class StaticDemo {
